@@ -1,2 +1,2 @@
-# GameDemo
-Some Demos
+# RPGDemo
+A RPG Game Demo
