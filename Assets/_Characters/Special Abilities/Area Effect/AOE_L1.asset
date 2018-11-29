@@ -14,9 +14,9 @@ MonoBehaviour:
   energyCost: 50
   particlePerfab: {fileID: 1977060658541122, guid: ddb9eccb541f52c4d91b421e9aba766d,
     type: 2}
-  animation: {fileID: 7400000, guid: a34ca3f7a1f5a6d468d6a9dc3f8db3f7, type: 3}
+  animation: {fileID: 7400000, guid: 49377cbe59e961b47a0431b769b56067, type: 3}
   audioClips:
   - {fileID: 8300000, guid: b2bf843f923cad2419104ad8fad7d74c, type: 3}
-  damageMultiplier: 0
+  gameObject: {fileID: 1773401390784850, guid: d1b2e3de4a311c54f96273f174f40ba9, type: 2}
   radius: 5
   damageToEachTarget: 15

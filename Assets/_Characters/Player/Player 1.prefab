@@ -492,7 +492,7 @@ GameObject:
   - component: {fileID: 4029662041851482}
   - component: {fileID: 198681799472662940}
   - component: {fileID: 199005707148026942}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Critical Hit Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -740,7 +740,7 @@ GameObject:
   - component: {fileID: 114922818919541062}
   - component: {fileID: 114904009049527738}
   - component: {fileID: 114793632135208920}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Player 1
   m_TagString: Player
   m_Icon: {fileID: 0}

@@ -46,7 +46,7 @@ namespace RPG.Characters
         {
             for (int abilityIndex = 0; abilityIndex < abilities.Length; abilityIndex++)
             {
-                abilities[abilityIndex].GetBehaviourComponent(gameObject);
+				abilities[abilityIndex].AttachAbilityTo(gameObject);
             }
         }
 
@@ -65,6 +65,10 @@ namespace RPG.Characters
             if (energyCost <= currentEnergyPoints)
             {
                 ConsumeEnergy(energyCost);
+				if (target == null) 
+				{
+					target = GameObject.FindWithTag ("Player");
+				}
                 abilities[abilityIndex].Use(target);
                 
             }

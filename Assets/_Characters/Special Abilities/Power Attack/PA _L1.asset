@@ -14,8 +14,8 @@ MonoBehaviour:
   energyCost: 10
   particlePerfab: {fileID: 1726569626788836, guid: 2a3250bd3a185dd42afc0865354d00d3,
     type: 2}
+  animation: {fileID: 7400000, guid: 5c0b1be3522a16f4c8519b02a90a980d, type: 3}
   audioClips:
   - {fileID: 8300000, guid: c558d09ee7f13c742994ed73a43b79ce, type: 3}
-  damageMultiplier: 0
-  animation: {fileID: 0}
+  gameObject: {fileID: 0}
   extraDamage: 20

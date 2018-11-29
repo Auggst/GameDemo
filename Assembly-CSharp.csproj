@@ -54,26 +54,28 @@
      <Compile Include="Assets\_Camera &amp; UI\CameraFollow.cs" />
      <Compile Include="Assets\_Camera &amp; UI\CameraRaycaster.cs" />
      <Compile Include="Assets\_Camera &amp; UI\FollowCamera.cs" />
-     <Compile Include="Assets\_Characters\AICharacterControl.cs" />
-     <Compile Include="Assets\_Characters\DomiantHand.cs" />
-     <Compile Include="Assets\_Characters\Enemies\Enemy.cs" />
-     <Compile Include="Assets\_Characters\Enemies\EnemyHealthBar.cs" />
-     <Compile Include="Assets\_Characters\Enemies\EnemyUI.cs" />
-     <Compile Include="Assets\_Characters\Player\Energy.cs" />
-     <Compile Include="Assets\_Characters\Player\Player.cs" />
-     <Compile Include="Assets\_Characters\Player\PlayerHealthBar.cs" />
-     <Compile Include="Assets\_Characters\Player\PlayerMovement.cs" />
-     <Compile Include="Assets\_Characters\Player\Special Abilities\ISpecialAbility.cs" />
-     <Compile Include="Assets\_Characters\Player\Special Abilities\Power Attack\PowerAttackBehaviour.cs" />
-     <Compile Include="Assets\_Characters\Player\Special Abilities\Power Attack\PowerAttackConfig.cs" />
-     <Compile Include="Assets\_Characters\Player\Special Abilities\SpecialAbilityConfig.cs" />
-     <Compile Include="Assets\_Characters\ThirdPersonCharacter.cs" />
+     <Compile Include="Assets\_Characters\Enemies\EnemyAI.cs" />
+     <Compile Include="Assets\_Characters\Enemies\FaceCamera.cs" />
+     <Compile Include="Assets\_Characters\Player\PlayerControl.cs" />
+     <Compile Include="Assets\_Characters\Scripts\Character.cs" />
+     <Compile Include="Assets\_Characters\Scripts\DomiantHand.cs" />
+     <Compile Include="Assets\_Characters\Scripts\HealthSystem.cs" />
+     <Compile Include="Assets\_Characters\Scripts\SpecialAbilities.cs" />
+     <Compile Include="Assets\_Characters\Scripts\WaypointContainer.cs" />
+     <Compile Include="Assets\_Characters\Scripts\WeaponSystem.cs" />
+     <Compile Include="Assets\_Characters\Special Abilities\AbilityBehaviour.cs" />
+     <Compile Include="Assets\_Characters\Special Abilities\AbilityConfig.cs" />
+     <Compile Include="Assets\_Characters\Special Abilities\Area Effect\AreaEffectBehaviour.cs" />
+     <Compile Include="Assets\_Characters\Special Abilities\Area Effect\AreaEffectConfig.cs" />
+     <Compile Include="Assets\_Characters\Special Abilities\Power Attack\PowerAttackBehaviour.cs" />
+     <Compile Include="Assets\_Characters\Special Abilities\Power Attack\PowerAttackConfig.cs" />
+     <Compile Include="Assets\_Characters\Special Abilities\Self Heal\SelfHealBehaviour.cs" />
+     <Compile Include="Assets\_Characters\Special Abilities\Self Heal\SelfHealConfig.cs" />
+     <Compile Include="Assets\_Characters\Weapons\WeaponConfig.cs" />
+     <Compile Include="Assets\_Characters\Weapons\WeaponPickupPoint.cs" />
      <Compile Include="Assets\_Core\AudioTrigger.cs" />
-     <Compile Include="Assets\_Core\IDamageable.cs" />
      <Compile Include="Assets\_Core\SpinMe.cs" />
      <Compile Include="Assets\_Levels\Environment\Water\Water\Scripts\Water.cs" />
-     <Compile Include="Assets\_Weapons\Ranged\Projectile.cs" />
-     <Compile Include="Assets\_Weapons\Weapon.cs" />
      <Compile Include="Assets\World Objects\Water\Water\Scripts\Displace.cs" />
      <Compile Include="Assets\World Objects\Water\Water\Scripts\GerstnerDisplace.cs" />
      <Compile Include="Assets\World Objects\Water\Water\Scripts\MeshContainer.cs" />
@@ -82,15 +84,12 @@
      <Compile Include="Assets\World Objects\Water\Water\Scripts\WaterBase.cs" />
      <Compile Include="Assets\World Objects\Water\Water\Scripts\WaterTile.cs" />
      <None Include="Assets\World Objects\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Asset Packs - For Students\SimpleFX - Synty\Materials\UnlitVertexColour_Alpha.shader" />
      <None Include="Assets\_Levels\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\World Objects\Skybox Cubemap Extended\Shaders\Skybox Cubemap Extended.shader" />
      <None Include="Assets\World Objects\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\World Objects\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\SETUP &amp; STANDARDS.txt" />
-     <None Include="Assets\_Weapons\Ranged\Ball Gun\RollerBall\RollerBallGuidelines.txt" />
- <Reference Include="Assembly-CSharp-firstpass">
- <HintPath>F:/unity5.x入门到精通/RPG/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>F:/unity5.x/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -143,7 +143,6 @@ namespace RPG.Characters
         * 参数:Vector3 destination,鼠标点击目的地
         * 类型:void
         */
-        //TODO 移到玩家控制器
         void OnMouseOverTerrrain(Vector3 destination)
         {
             if(Input.GetMouseButton(0))

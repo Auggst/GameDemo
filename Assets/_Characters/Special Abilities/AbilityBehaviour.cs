@@ -11,7 +11,7 @@ namespace RPG.Characters
         const string DEFAULT_ATTACK_STATE = "DEFAULT ATTACK";
         const float PARTICE_CLEAN_UP_DELAY = 20f;
 
-        public abstract void Use(GameObject target = null);
+        public abstract void Use(GameObject target);
 
         //设置配置脚本
         public void SetConfig(AbilityConfig configToSet)
@@ -50,7 +50,6 @@ namespace RPG.Characters
 
         protected void PlayAbilityAnimation()
         {
-            var abilityAnimation = config.GetAbilityAnimation();
             var animatorOverrideController = GetComponent<Character>().GetOverrideController();
             var animator = GetComponent<Animator>();
             animator.runtimeAnimatorController = animatorOverrideController;
@@ -61,7 +60,7 @@ namespace RPG.Characters
 
         protected void PlayAbilitySound()
         {
-            var abilitySound = config.GetRandomAbilitySound();//TODO 改为随机音频
+            var abilitySound = config.GetRandomAbilitySound();
             var audioSource = GetComponent<AudioSource>();
             audioSource.PlayOneShot(abilitySound);
         }

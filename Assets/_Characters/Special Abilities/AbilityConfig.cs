@@ -1,19 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
-using RPG.Core;
 
 namespace RPG.Characters
 {
 
-    public abstract class AbilityConfig : ScriptableObject
+    public abstract class AbilityConfig : ScriptableObject 
     {
         [Header("Special Ability General")]
         [SerializeField] float energyCost = 10f;
         [SerializeField] GameObject particlePerfab = null;
         [SerializeField] AnimationClip animation;
         [SerializeField] AudioClip[] audioClips = null;
-        [SerializeField] float damageMultiplier;
+        [SerializeField] GameObject gameObject = null;
 
 
         protected AbilityBehaviour behaviour;
@@ -28,7 +26,7 @@ namespace RPG.Characters
         }
 
         public void Use(GameObject target)
-        {
+		{
             behaviour.Use(target);
         }
 
